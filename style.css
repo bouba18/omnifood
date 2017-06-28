@@ -1,0 +1,150 @@
+body{
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+header{
+  background-image: linear-gradient(rgba(237, 139, 24, 0.4), rgba(16, 84, 215, 0.69)), url("pictures/fruit.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+header img{
+  width: 25%;
+}
+.menu{
+  /*float: right;
+  padding-top: 10vh;*/
+}
+.menu a {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  margin-right: 15px;
+}
+.menu a:hover{
+  color: rgb(240, 92, 10);
+  border-bottom: 2px solid white;
+}
+header img{
+  float: left;
+  margin-left: 15vh;
+}
+.sub-header-content a{
+  display: block;
+}
+.sub-header-content a:first-child{
+  text-decoration: none;
+}
+h1{
+  font-size: 2em;
+  color: white;
+}
+.content-btn{
+  margin-top: 50vh;
+  margin-left: 80vh;
+  font-size: 32px;
+}
+.btn-un{
+  background-color: #cf6d17;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 24px;
+  padding:10px 10px;
+}
+
+.sub-btn{
+  border: 1px solid #cf6d17;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  border-radius: 24px;
+  color: white;
+}
+.btn-un:hover{
+  background-color: white;
+  color:#cf6d17;
+}
+h2{
+  font-size: 32px;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+.icons{
+  display: flex;
+  justify-content: space-around;
+}
+.ion-ios-infinite{
+  font-size: 50px;
+  color: #cf6d17;
+}
+.ion-ios-stopwatch-outline{
+  font-size: 50px;
+  color: #cf6d17;
+}
+.ion-ios-nutrition-outline{
+  font-size: 50px;
+  color: #cf6d17;
+}
+.ion-ios-cart-outline{
+  font-size: 50px;
+  color: #cf6d17;
+}
+.title-text{
+  text-align: center;
+}
+.contain-text{
+  display: flex;
+}
+.text{
+  text-align: center;
+  padding: 0 15px;
+}
+.text p {
+  text-align: justify;
+}
+.gallerys{
+  background-image: url("pictures/1.jpg");
+  width: 20%;
+}
+.meals-showcase{
+  width: 100%;
+}
+.meals-showcase li{
+  float: left;
+  width: 25%;
+}
+.meal-photo{
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+.meal-photo img{
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition:0.5s,
+  -webkit-transform 0.5s;
+}
+.meal-photo:hover{
+  opacity:0.9;
+}
+.meal-photo img:hover{
+  transform: scale(1.03);
+}
+.phone{
+  width: 100%;
+}
+.phone img{
+  width: 15%;
+margin-left: 30em;
+}
+.num{
+  border: 1px solid rgb(77, 52, 59);
+  border-radius: 50%;
+  position: relative;
+}
